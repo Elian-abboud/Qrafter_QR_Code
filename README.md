@@ -1,16 +1,28 @@
-# React + Vite
+# Qrafter_QR_Code
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Project Overview**  
+Qrafter is a comprehensive, modern QR code generator web application built using **HTML, CSS, JavaScript, React.js, and Bootstrap**. It empowers users to create customized QR codes for various data types with ease. With its cutting-edge web technologies, Qrafter offers an intuitive interface and powerful features for both personal and professional use.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🏆 **Key Achievements**:
 
-## React Compiler
+- ✔ **Intuitive User Interface**: Designed for smooth and seamless navigation  
+- ✔ **Support 13 Different Data Types**  
+- ✔ **Fully Responsive Layout**: Optimized for all devices — desktops, tablets, and smartphones  
+- ✔ **Mobile-First Approach**: Prioritized performance and user experience on smaller screens  
+- ✔ **Consistent Branding**: Maintained a unified visual identity across the application  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🔗 Demo
+[Click here to view the live demo](https://elian-abboud.github.io/Qrafter_QR_Code/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+![Qrafter_QR_Code](/1.png)  
+![Qrafter_QR_Code](/2.png)  
+![Qrafter_QR_Code](/3.png)  
+![Qrafter_QR_Code](/4.png)
