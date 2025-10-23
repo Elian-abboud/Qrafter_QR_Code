@@ -2,6 +2,9 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Blog.css";
+import Image2 from "../../../public/assets/images/2.jpeg";
+import Image3 from "../../../public/assets/images/3.jpeg";
+import Image1 from "../../../public/assets/images/1.jpeg";
 
 const Blog = () => {
   const [selectedPost, setSelectedPost] = useState(null);
@@ -15,7 +18,7 @@ const Blog = () => {
       category: "Technology",
       readTime: "5 min read",
       date: "Octobar 21, 2025",
-      image: "/assets/images/3.jpeg", // Local image path
+      image: Image3, // Local image path
       content: `A QR code, short for Quick Response code, is a two-dimensional barcode developed in 1994 by Masahiro Hara of Denso Wave. Unlike traditional barcodes that store information in a single line, QR codes arrange data within a matrix of black squares on a white background, enhanced with fiducial markers that make them easily detectable by cameras.
       
 QR codes can encode information in four standardized modes—numeric, alphanumeric, byte/binary, and kanji—making them highly versatile for different types of data.
@@ -42,7 +45,7 @@ Their flexibility was further boosted by Denso Wave's decision not to enforce th
       category: "Technical",
       readTime: "6 min read",
       date: "Octobar 21, 2025",
-      image: "/assets/images/2.jpeg", // Local image path
+      image: Image2, // Local image path
       content: `## Structure and Components
 QR codes are built from a grid of black and white squares that represent binary code—black modules signify "on" and white modules signify "off." This binary system allows devices to quickly read and translate the encoded information.
 
@@ -74,7 +77,7 @@ QR codes are designed for quick and effortless access to information. You can sc
       category: "Business",
       readTime: "7 min read",
       date: "Octobar 21, 2025",
-      image: "/assets/images/1.jpeg", // Local image path
+      image: Image1, // Local image path
       content: `## Beyond Basic Marketing
 While QR codes have long been used for simple redirection to websites or promotional content, forward-thinking businesses are finding creative applications that enhance customer experience and streamline operations.
 

@@ -2,23 +2,36 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./About.css";
+import linkIcon from "../../../public/assets/images/link.png";
+import textIcon from "../../../public/assets/images/text.png";
+import emailIcon from "../../../public/assets/images/email.png";
+import callIcon from "../../../public/assets/images/call.png";
+import smsIcon from "../../../public/assets/images/sms.png";
+import whatsappIcon from "../../../public/assets/images/whatsapp.png";
+import socialIcon from "../../../public/assets/images/social.png";
+import appIcon from "../../../public/assets/images/mobileapp.png";
+import vcardIcon from "../../../public/assets/images/cvv.png";
+import wifiIcon from "../../../public/assets/images/wifi.png";
+import locationIcon from "../../../public/assets/images/location.jpg";
+import imagesIcon from "../../../public/assets/images/image.png";
+import videoIcon from "../../../public/assets/images/video.png";
 
 const About = () => {
   // مسارات الأيقونات الجديدة
   const iconPaths = {
-    link: "/assets/images/link.png",
-    text: "/assets/images/text.png",
-    email: "/assets/images/email.png",
-    call: "/assets/images/call.png",
-    sms: "/assets/images/sms.png",
-    whatsapp: "/assets/images/whatsapp.png",
-    social: "/assets/images/social.png",
-    app: "/assets/images/mobileapp.png",
-    vcard: "/assets/images/cvv.png",
-    wifi: "/assets/images/wifi.png",
-    location: "/assets/images/location.jpg",
-    images: "/assets/images/image.png",
-    video: "/assets/images/video.png",
+    link: linkIcon,
+    text: textIcon,
+    email: emailIcon,
+    call: callIcon,
+    sms: smsIcon,
+    whatsapp: whatsappIcon,
+    social: socialIcon,
+    app: appIcon,
+    vcard: vcardIcon,
+    wifi: wifiIcon,
+    location: locationIcon,
+    images: imagesIcon,
+    video: videoIcon,
   };
 
   const features = [
